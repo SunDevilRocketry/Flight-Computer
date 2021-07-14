@@ -1,2 +1,2 @@
-# Flight-Computer
-General purpose flight computer for high powered rocketry projects. 
+# PCB-Template
+Template directory structure for PCB projects.
