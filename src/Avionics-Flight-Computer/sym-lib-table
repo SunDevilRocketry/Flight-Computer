@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Flight-Computer)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.lib)(options "")(descr ""))
+  (lib (name Engine-Controller)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.lib)(options "")(descr ""))
 )

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Avionics-Flight-Computer)(type KiCad)(uri /home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Avionics-Flight-Computer.pretty)(options "")(descr ""))
+  (lib (name Engine-Controller)(type KiCad)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.pretty)(options "")(descr ""))
 )
