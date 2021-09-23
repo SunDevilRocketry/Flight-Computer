@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Engine-Controller)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.lib)(options "")(descr ""))
+  (lib (name Instrumentation-Amplifier_L-0001)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Instrumentation-Amplifier/lib/Instrumentation-Amplifier_L-0001.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols/power.lib)(options "")(descr ""))
+  (lib (name Flight-Computer)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.lib)(options "")(descr ""))
+  (lib (name Engine-Controller-rescue)(type Legacy)(uri ${KIPRJMOD}/Engine-Controller-rescue.lib)(options "")(descr ""))
+)
