@@ -4272,18 +4272,6 @@
     )
   )
 
-  (sheet (at 190.881 59.817) (size 14.605 11.43) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-000060e24895)
-    (property "Sheet name" "Connectors" (id 0) (at 190.881 59.1054 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Connectors.kicad_sch" (id 1) (at 190.881 71.8316 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 235.331 61.341) (size 12.7 10.16) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -4299,16 +4287,12 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-00006177d07c" (page "3"))
-    (path "/00000000-0000-0000-0000-000060e24895" (page "4"))
     (path "/00000000-0000-0000-0000-000060daa9b3" (page "5"))
   )
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-000060de602c"
       (reference "#PWR01") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-00006138d033"
-      (reference "#PWR02") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-000061788b6e"
       (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
@@ -4318,12 +4302,6 @@
     )
     (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617f979c"
       (reference "#PWR05") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-00006193d92b"
-      (reference "#PWR06") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-000061c08552"
-      (reference "#PWR07") (unit 1) (value "Earth") (footprint "")
     )
     (path "/08947480-7ace-467b-8a10-40dde61ef700"
       (reference "#PWR08") (unit 1) (value "Earth") (footprint "")
@@ -4354,9 +4332,6 @@
     )
     (path "/00000000-0000-0000-0000-000060daa9b3/00000000-0000-0000-0000-000060fb3329"
       (reference "#PWR0110") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-000060dbde57"
-      (reference "#PWR0112") (unit 1) (value "Earth") (footprint "")
     )
     (path "/cea4c973-2fb2-41e2-9d5a-5ad0a7921ca6"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
@@ -4424,20 +4399,8 @@
     (path "/00000000-0000-0000-0000-000060daa9b3/00000000-0000-0000-0000-000061ddec99"
       (reference "P2") (unit 1) (value "USB") (footprint "Engine-Controller:USB-TypeB")
     )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-00006193d931"
-      (reference "P3") (unit 1) (value "SBH11-PBPC-D05-RA-BK") (footprint "Engine-Controller:SBH11-PBPC-D05-RA-BK")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-000061252cb3"
-      (reference "P4") (unit 1) (value "0901471110") (footprint "Engine-Controller:0901471110")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-000061255d75"
-      (reference "P5") (unit 1) (value "66953-005LF") (footprint "Engine-Controller:66953-005LF")
-    )
     (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617f7ccb"
       (reference "P6") (unit 1) (value "Micro_SD_Card") (footprint "Engine-Controller:GCT_MEM2075-00-140-01-A")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-000061bf9e85"
-      (reference "P7") (unit 1) (value "0901471110") (footprint "Engine-Controller:0901471110")
     )
     (path "/b101f496-de41-4d70-bd94-f188bbb0c195"
       (reference "P8") (unit 1) (value "3220-20-0200-00") (footprint "CONN20_D10-RA-BK_SUL")
@@ -4477,9 +4440,6 @@
     )
     (path "/00000000-0000-0000-0000-0000614b51f2"
       (reference "U1") (unit 1) (value "STM32H750VBTx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-00006134c986"
-      (reference "U4") (unit 1) (value "SN74LV07ADR") (footprint "Engine-Controller:SN74LV07ADR")
     )
     (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617854ea"
       (reference "U5") (unit 1) (value "SST25VF040B-50-4I-S2AE-T") (footprint "Engine-Controller:SST25VF040B-50-4I-S2AE-T")
