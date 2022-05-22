@@ -1,4 +1,4 @@
-63583368326722
+97214909763647
 Engine-Controller
 12V_power_jack
 
@@ -6,6 +6,20 @@ Engine-Controller
 0
 3
 3
+Engine-Controller
+140-504-415-000
+
+
+0
+4
+4
+Engine-Controller
+3220-20-0200-00
+.050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
+
+0
+20
+20
 Engine-Controller
 66953-005LF
 
@@ -21,6 +35,55 @@ Engine-Controller
 2
 2
 Engine-Controller
+282837-2
+
+
+0
+2
+2
+Engine-Controller
+282837-6
+
+
+0
+6
+6
+Engine-Controller
+647676-2
+
+
+0
+2
+2
+Engine-Controller
+20021511-00026T4LF
+.050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
+
+0
+26
+26
+Engine-Controller
+0530470410
+
+
+0
+4
+4
+Engine-Controller
+532580229
+
+
+0
+2
+2
+Engine-Controller
+5015680807
+
+
+0
+10
+10
+Engine-Controller
 0901471110
 
 
@@ -28,15 +91,15 @@ Engine-Controller
 10
 10
 Engine-Controller
-CAP_0603
-<b>CAPACITOR</b>
+AD623ARZ-R7
+
 
 0
-2
-2
+8
+8
 Engine-Controller
-CAP_EEEFP1E151AL
-
+CAP_0603
+<b>CAPACITOR</b>
 
 0
 2
@@ -49,7 +112,28 @@ CBC3225T220KR
 2
 2
 Engine-Controller
-CWR11HH106KB
+CLMVC-FKA-CL1D1L71BB7C3C3
+
+
+0
+4
+4
+Engine-Controller
+CP2012-GMR
+
+
+0
+29
+29
+Engine-Controller
+ECS-240-18-33-JGN-TR
+
+
+0
+4
+4
+Engine-Controller
+EEEFP1E151AL
 
 
 0
@@ -62,13 +146,6 @@ EEEFPV680XAP
 0
 2
 2
-Engine-Controller
-GCT_MEM2075-00-140-01-A
-
-
-0
-13
-13
 Engine-Controller
 Jumper-NO
 <b>CAPACITOR</b>
@@ -84,6 +161,41 @@ LM22672MRE-5.0_NOPB
 8
 8
 Engine-Controller
+LMS8117AMP-3.3NOPB
+
+
+0
+4
+3
+Engine-Controller
+Logo
+
+
+0
+0
+0
+Engine-Controller
+MC74HC4066ADG
+
+
+0
+14
+14
+Engine-Controller
+MCP96L01T-E_MX
+
+
+0
+30
+30
+Engine-Controller
+MEM2075-00-140-01-A
+
+
+0
+13
+13
+Engine-Controller
 MPD_EJ508A
 
 
@@ -91,12 +203,33 @@ MPD_EJ508A
 3
 3
 Engine-Controller
+MountingHole_4.3mm_M4_DIN965
+Mounting Hole 4.3mm, no annular, M4, DIN965
+mounting hole 4.3mm no annular m4 din965
+0
+0
+0
+Engine-Controller
+PPTC041LFBN-RC
+
+
+0
+4
+4
+Engine-Controller
 PTS647SM38SMTR2LFS
 
 
 0
 4
 4
+Engine-Controller
+QS5U17TR
+
+
+0
+5
+5
 Engine-Controller
 RB160VAM-60TR
 
@@ -119,13 +252,6 @@ RES_0805
 2
 2
 Engine-Controller
-SBH11-PBPC-D05-RA-BK
-
-
-0
-10
-10
-Engine-Controller
 SM5819PL-TP
 
 
@@ -147,12 +273,12 @@ SN74LV07ADR
 14
 14
 Engine-Controller
-SOT-223
+SP0504BAHTG
 
 
 0
-4
-4
+5
+5
 Engine-Controller
 SRP1038A-330M
 
@@ -175,12 +301,12 @@ STM32H750VBT6
 100
 100
 Engine-Controller
-STM32L443VCT6
-
+T491A106K010AT
+10 microFarad Tantalum Capacitor
 
 0
-100
-100
+2
+2
 Engine-Controller
 TP
 
@@ -196,79 +322,93 @@ TPS2115APWR
 8
 8
 Engine-Controller
+TS391IYLT
+
+
+0
+5
+5
+Engine-Controller
 USB-TypeB
 
 
 0
 6
 6
-Instrumentation-Amplifier
-AD623ARZ-R7
+Engine-Controller
+max4617eue
 
 
 0
-8
-8
-Instrumentation-Amplifier
+16
+16
+Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
 
 0
 2
 2
-Instrumentation-Amplifier
-LM7812
-
-
-0
-4
-4
-Instrumentation-Amplifier
-LTST-C150GKT
-
+Flight-Computer
+Jumper-NO
+<b>CAPACITOR</b>
 
 0
 2
 2
-Instrumentation-Amplifier
-MountingHole_2.1mm
-Mounting Hole 2.1mm, no annular
-mounting hole 2.1mm no annular
-0
-0
-0
-Instrumentation-Amplifier
-PPTC041LFBN-RC
+Flight-Computer
+PTS647SM38SMTR2LFS
 
 
 0
 4
 4
-Instrumentation-Amplifier
+Flight-Computer
 RES_0603
 <b>RESISTOR</b>
 
 0
 2
 2
-Instrumentation-Amplifier
-logo
+Flight-Computer
+RES_0805
 
 
 0
-0
-0
-Instrumentation-Amplifier
-logo2
+2
+2
+Flight-Computer
+SOT-223
 
 
 0
-0
-0
-logo
-Logo
+4
+4
+Flight-Computer
+SST25VF040B-50-4I-S2AE-T
 
 
 0
+8
+8
+Flight-Computer
+STM32H750VBT6
+
+
 0
+100
+100
+Flight-Computer
+TP
+
+
 0
+1
+1
+Flight-Computer
+TPS2115APWR
+
+
+0
+8
+8
