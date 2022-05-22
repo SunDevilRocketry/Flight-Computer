@@ -1688,6 +1688,250 @@
       )
     )
   )
+  (symbol "SP0504BAHTG" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -15.748 1.905 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "SP0504BAHTG" (id 1) (at -19.05 -14.224 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "SOD-123FL_MCC" (id 2) (at -20.828 -20.32 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -5.334 -3.429 90)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_fp_filters" "SOD-123FL_MCC SOD-123FL_MCC-M SOD-123FL_MCC-L" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SP0504BAHTG_0_1"
+      (rectangle (start -14.224 4.699) (end 14.224 -3.937)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -8.89 3.175)
+          (xy -8.382 2.413)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.175 0.635)
+          (xy -3.175 -2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0.635)
+          (xy 3.81 -2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -8.89 3.175)
+          (xy -12.446 3.175)
+          (xy -12.954 3.937)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.795 0.635)
+          (xy 10.795 -2.54)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.175)
+          (xy 0 -2.54)
+          (xy -10.795 -2.54)
+          (xy -10.795 0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "SP0504BAHTG_1_1"
+      (polyline
+        (pts
+          (xy -12.7 0.635)
+          (xy -8.89 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.795 3.175)
+          (xy -12.7 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -8.89 0.635)
+          (xy -10.795 3.175)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 0.635)
+          (xy -1.27 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.175 3.175)
+          (xy -5.08 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 0.635)
+          (xy -3.175 3.175)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 3.175)
+          (xy -0.762 2.413)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.905 0.635)
+          (xy 5.715 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 3.175)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.588 3.175)
+          (xy 6.096 2.413)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.715 0.635)
+          (xy 3.81 3.175)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.89 0.635)
+          (xy 12.7 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.795 3.175)
+          (xy 8.89 0.635)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 0.635)
+          (xy 10.795 3.175)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 3.175)
+          (xy 13.208 2.413)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 3.175)
+          (xy -4.826 3.175)
+          (xy -5.334 3.937)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.588 3.175)
+          (xy 2.032 3.175)
+          (xy 1.524 3.937)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 3.175)
+          (xy 9.144 3.175)
+          (xy 8.636 3.937)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin passive line (at -10.795 5.715 270) (length 2.54)
+        (name "~" (effects (font (size 1.4986 1.4986))))
+        (number "1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin passive line (at 0 -5.715 90) (length 2.54)
+        (name "~" (effects (font (size 1.4986 1.4986))))
+        (number "2" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin passive line (at -3.175 5.715 270) (length 2.54)
+        (name "~" (effects (font (size 1.4986 1.4986))))
+        (number "3" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin passive line (at 3.81 5.715 270) (length 2.54)
+        (name "~" (effects (font (size 1.4986 1.4986))))
+        (number "4" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin passive line (at 10.795 5.715 270) (length 2.54)
+        (name "~" (effects (font (size 1.4986 1.4986))))
+        (number "5" (effects (font (size 1.4986 1.4986))))
+      )
+    )
+  )
   (symbol "SST25VF040B-50-4I-S2AE-T" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 6.35 0)
       (effects (font (size 1.524 1.524)))
