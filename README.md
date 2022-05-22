@@ -1,4 +1,4 @@
-<h1>General Purpose Flight Computer</h1>
+<h1>Flight Computer</h1>
 
 <p>Current PCB Revision: 1.0</p>
 <p>PCB Part Number: A0002</p>
