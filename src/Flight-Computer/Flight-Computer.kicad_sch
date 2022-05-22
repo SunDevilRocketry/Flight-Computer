@@ -4260,48 +4260,35 @@
     (pin "2" (uuid 0a443619-8c12-4ded-9dd3-02bffff76141))
   )
 
-  (sheet (at 215.138 58.42) (size 12.7 9.525) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+  (sheet (at 177.292 60.96) (size 104.394 28.956)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-000060daa9b3)
-    (property "Sheet name" "USB" (id 0) (at 215.138 57.7084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b65729ce-aade-4707-9cc1-eb9bb9e47e4f)
+    (property "Sheet name" "Peripherals" (id 0) (at 221.742 64.516 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheet file" "USB.kicad_sch" (id 1) (at 215.138 68.5296 0)
+    (property "Sheet file" "peripherals.kicad_sch" (id 1) (at 177.8 87.376 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-  )
-
-  (sheet (at 235.331 61.341) (size 12.7 10.16) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00006177d07c)
-    (property "Sheet name" "Flash_SD" (id 0) (at 235.331 60.6294 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Field2" "USB" (id 2) (at 192.024 75.692 0)
+      (effects (font (size 1.27 1.27) bold))
     )
-    (property "Sheet file" "Flash_SD.kicad_sch" (id 1) (at 235.331 72.0856 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+    (property "Field3" "Flash" (id 3) (at 264.922 75.692 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
+    (property "Field4" "Sensors" (id 4) (at 227.584 75.438 0)
+      (effects (font (size 1.27 1.27) bold))
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-00006177d07c" (page "3"))
-    (path "/00000000-0000-0000-0000-000060daa9b3" (page "5"))
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f" (page "4"))
   )
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-000060de602c"
       (reference "#PWR01") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-000061788b6e"
-      (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-00006180735a"
-      (reference "#PWR04") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617f979c"
-      (reference "#PWR05") (unit 1) (value "Earth") (footprint "")
     )
     (path "/08947480-7ace-467b-8a10-40dde61ef700"
       (reference "#PWR08") (unit 1) (value "Earth") (footprint "")
@@ -4329,9 +4316,6 @@
     )
     (path "/f0b9fa4a-3726-4357-8f1e-c3a8664a31ee"
       (reference "#PWR017") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060daa9b3/00000000-0000-0000-0000-000060fb3329"
-      (reference "#PWR0110") (unit 1) (value "Earth") (footprint "")
     )
     (path "/cea4c973-2fb2-41e2-9d5a-5ad0a7921ca6"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
@@ -4396,12 +4380,6 @@
     (path "/734779d6-abcf-4038-aed0-dd44273b3737"
       (reference "LOGO1") (unit 1) (value "Logo") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060daa9b3/00000000-0000-0000-0000-000061ddec99"
-      (reference "P2") (unit 1) (value "USB") (footprint "Engine-Controller:USB-TypeB")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617f7ccb"
-      (reference "P6") (unit 1) (value "Micro_SD_Card") (footprint "Engine-Controller:GCT_MEM2075-00-140-01-A")
-    )
     (path "/b101f496-de41-4d70-bd94-f188bbb0c195"
       (reference "P8") (unit 1) (value "3220-20-0200-00") (footprint "CONN20_D10-RA-BK_SUL")
     )
@@ -4414,9 +4392,6 @@
     (path "/fb37467d-be01-4b65-b8af-8507b902777a"
       (reference "R6") (unit 1) (value "280") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000618d69c9"
-      (reference "R7") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
-    )
     (path "/a77929a2-6f9e-4809-86d9-0b42c19c8063"
       (reference "R10") (unit 1) (value "100k") (footprint "")
     )
@@ -4426,23 +4401,8 @@
     (path "/5e07d021-2ca7-49df-b080-ac7c988aa14f"
       (reference "TP1") (unit 1) (value "TP") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000619d48b0"
-      (reference "TP6") (unit 1) (value "TP") (footprint "Engine-Controller:TP")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000619d6a4e"
-      (reference "TP7") (unit 1) (value "TP") (footprint "Engine-Controller:TP")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000619d874e"
-      (reference "TP8") (unit 1) (value "TP") (footprint "Engine-Controller:TP")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000619de8d4"
-      (reference "TP9") (unit 1) (value "TP") (footprint "Engine-Controller:TP")
-    )
     (path "/00000000-0000-0000-0000-0000614b51f2"
       (reference "U1") (unit 1) (value "STM32H750VBTx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617854ea"
-      (reference "U5") (unit 1) (value "SST25VF040B-50-4I-S2AE-T") (footprint "Engine-Controller:SST25VF040B-50-4I-S2AE-T")
     )
     (path "/4fe127d3-8d94-46ea-90c9-64f19144e6e4"
       (reference "Y1") (unit 1) (value "ECS-240-18-33-JGN-TR") (footprint "")
