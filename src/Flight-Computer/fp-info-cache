@@ -1,4 +1,4 @@
-115421086498716
+117074341179735
 Engine-Controller
 12V_power_jack
 
@@ -363,6 +363,13 @@ Flight-Computer
 0
 6
 6
+Flight-Computer
+647676-2
+
+
+0
+2
+2
 Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
