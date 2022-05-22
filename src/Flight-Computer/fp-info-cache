@@ -1,4 +1,4 @@
-117092853522311
+120399370925805
 Engine-Controller
 12V_power_jack
 
@@ -371,6 +371,13 @@ Flight-Computer
 2
 2
 Flight-Computer
+10118194-0001LF
+
+
+0
+11
+11
+Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
 
@@ -384,6 +391,13 @@ CLMVC-FKA-CL1D1L71BB7C3C3
 0
 4
 4
+Flight-Computer
+CP2012-GMR
+
+
+0
+29
+29
 Flight-Computer
 ECS-240-18-33-JGN-TR
 
