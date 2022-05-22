@@ -36,7 +36,7 @@
   (pad "2" smd rect (at 2.7 -1.599999) (size 1.7 0.9906) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2eddb78-e9ee-498d-876a-938568454ca8))
   (pad "3" smd rect (at -2.7 1.599999) (size 1.7 0.9906) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 890015ad-c471-48e1-9e87-c11e46ff1245))
   (pad "4" smd rect (at 2.7 1.599999) (size 1.7 0.9906) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8c53b779-dbff-4044-82cb-2c58ca20b4bf))
-  (model "/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/CAD/3Dfiles/SW_PTS647SM38SMTR2LFS_CNK.step"
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/PTS647SM38SMTR2LFS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
