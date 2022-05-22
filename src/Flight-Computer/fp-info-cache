@@ -1,4 +1,4 @@
-97214909763647
+115421086498716
 Engine-Controller
 12V_power_jack
 
@@ -343,12 +343,47 @@ max4617eue
 16
 16
 Flight-Computer
+3220-20-0200-00
+.050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
+
+0
+20
+20
+Flight-Computer
+282837-2
+
+
+0
+2
+2
+Flight-Computer
+282837-6
+
+
+0
+6
+6
+Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
 
 0
 2
 2
+Flight-Computer
+CLMVC-FKA-CL1D1L71BB7C3C3
+
+
+0
+4
+4
+Flight-Computer
+ECS-240-18-33-JGN-TR
+
+
+0
+4
+4
 Flight-Computer
 Jumper-NO
 <b>CAPACITOR</b>
@@ -357,12 +392,33 @@ Jumper-NO
 2
 2
 Flight-Computer
+Logo
+
+
+0
+0
+0
+Flight-Computer
+MountingHole_4.3mm_M4_DIN965
+Mounting Hole 4.3mm, no annular, M4, DIN965
+mounting hole 4.3mm no annular m4 din965
+0
+0
+0
+Flight-Computer
 PTS647SM38SMTR2LFS
 
 
 0
 4
 4
+Flight-Computer
+QS5U17TR
+
+
+0
+5
+5
 Flight-Computer
 RES_0603
 <b>RESISTOR</b>
@@ -378,12 +434,26 @@ RES_0805
 2
 2
 Flight-Computer
+SML-LX1206GC-TR
+
+
+0
+2
+2
+Flight-Computer
 SOT-223
 
 
 0
 4
 4
+Flight-Computer
+SP0504BAHTG
+
+
+0
+5
+5
 Flight-Computer
 SST25VF040B-50-4I-S2AE-T
 
@@ -398,6 +468,13 @@ STM32H750VBT6
 0
 100
 100
+Flight-Computer
+T491A106K010AT
+10 microFarad Tantalum Capacitor
+
+0
+2
+2
 Flight-Computer
 TP
 
