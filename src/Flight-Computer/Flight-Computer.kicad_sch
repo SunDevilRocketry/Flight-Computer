@@ -4391,6 +4391,24 @@
     (pin "1" (uuid 6653a970-ab09-4cf1-8940-f675ed83dfee))
   )
 
+  (symbol (lib_id "Flight-Computer:TP") (at 257.048 33.528 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 19abe294-64ab-4a0e-9a39-1f6fa5ac5e6f)
+    (property "Reference" "TP2" (id 0) (at 258.953 26.3433 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TP" (id 1) (at 258.953 28.8802 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "" (id 2) (at 257.048 33.528 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 257.048 33.528 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 19812959-5fde-4f5d-b569-f5ea21d8a027))
+  )
+
   (symbol (lib_id "Flight-Computer:Earth") (at 262.128 54.102 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1a60f866-8876-4c61-aa1d-da7d8460610f)
@@ -5460,6 +5478,9 @@
     )
     (path "/5e07d021-2ca7-49df-b080-ac7c988aa14f"
       (reference "TP1") (unit 1) (value "TP") (footprint "")
+    )
+    (path "/19abe294-64ab-4a0e-9a39-1f6fa5ac5e6f"
+      (reference "TP2") (unit 1) (value "TP") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000614b51f2"
       (reference "U1") (unit 1) (value "STM32H750VBTx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
