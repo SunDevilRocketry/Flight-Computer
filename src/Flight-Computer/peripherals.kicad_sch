@@ -3372,9 +3372,9 @@
   )
 
   (symbol (lib_id "Flight-Computer:CP2102-GMR(QFN28)") (at 133.985 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 98de094b-44fc-4e45-b328-3d87ef68589b)
-    (property "Reference" "U3" (id 0) (at 153.8159 39.0198 0))
+    (property "Reference" "U3" (id 0) (at 134.62 49.53 0))
     (property "Value" "CP2102-GMR(QFN28)" (id 1) (at 89.535 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
