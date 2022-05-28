@@ -300,7 +300,7 @@
   (no_connect (at 96.52 55.88) (uuid c2d00279-3992-4692-95db-6e66e8056518))
   (no_connect (at 55.88 48.26) (uuid f89404aa-77d0-4436-b32a-8cd535c62b6c))
   (no_connect (at 55.88 58.42) (uuid fe1fafa1-a48a-4edc-89db-57ca632d7340))
-  (no_connect (at 55.88 60.96) (uuid fe1fafa1-a48a-4edc-89db-57ca632d7340))
+  (no_connect (at 55.88 60.96) (uuid fe1fafa1-a48a-4edc-89db-57ca632d7341))
 
   (wire (pts (xy 97.155 68.58) (xy 97.155 70.485))
     (stroke (width 0) (type default) (color 0 0 0 0))

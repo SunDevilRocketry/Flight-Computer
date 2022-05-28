@@ -1,4 +1,4 @@
-127012957438354
+128666723154436
 Engine-Controller
 12V_power_jack
 
@@ -475,6 +475,13 @@ RES_0805
 0
 2
 2
+Flight-Computer
+RFM95
+
+
+0
+16
+16
 Flight-Computer
 SM5819PL-TP
 
