@@ -1,4 +1,4 @@
-128666723154436
+130320491938632
 Engine-Controller
 12V_power_jack
 
@@ -384,6 +384,13 @@ AI-1223-TWT-12V-3-R
 0
 2
 2
+Flight-Computer
+BMP390
+
+
+0
+10
+10
 Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
