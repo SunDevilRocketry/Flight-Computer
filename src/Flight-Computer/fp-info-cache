@@ -1,4 +1,4 @@
-125359195848559
+127012957438354
 Engine-Controller
 12V_power_jack
 
@@ -426,6 +426,13 @@ Logo
 0
 0
 0
+Flight-Computer
+MAX-8C-0
+
+
+0
+18
+18
 Flight-Computer
 MPU-9250
 
