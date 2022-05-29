@@ -4262,7 +4262,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b5960cbf-bb03-42de-840f-d48aa211d8c2)
   )
-  (text "Microcontroller" (at 52.07 27.94 0)
+  (text "Microcontroller" (at 51.435 27.94 0)
     (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
     (uuid b99afebf-51ab-49b0-8eb8-4e4f885fa787)
   )
@@ -4393,10 +4393,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "IMU_SDA" (shape input) (at 95.25 112.395 0) (fields_autoplaced)
+  (global_label "SDA" (shape input) (at 95.25 112.395 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 52de010c-acee-4661-ae94-bb40870f5d9b)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 105.4966 112.3156 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 101.1423 112.3156 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4442,10 +4442,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "IMU_SCL" (shape input) (at 95.25 109.855 0) (fields_autoplaced)
+  (global_label "SCL" (shape input) (at 95.25 109.855 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 747ef408-d428-4c70-9489-c7190c4bae8d)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 105.4361 109.7756 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 101.0818 109.7756 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -5901,6 +5901,15 @@
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/4bd954ef-7b24-4be2-9e47-dffb88431f61"
       (reference "#PWR037") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/d216ea84-c5e7-4b4f-b56e-f331a7bb8ab6"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/f760f8a2-7880-4d6d-8600-54bf46874688"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
+      (reference "AE?") (unit 1) (value "0734120110") (footprint "")
+    )
     (path "/cea4c973-2fb2-41e2-9d5a-5ad0a7921ca6"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
     )
@@ -6122,6 +6131,9 @@
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/efd68b6e-9e07-425c-97da-32faeda66c85"
       (reference "U8") (unit 1) (value "MPU-9250") (footprint "QFN40P300X300X105-24N")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/640e65b2-b4ce-424b-9b0b-d01f63d8cb07"
+      (reference "U?") (unit 1) (value "MAX-8C-0-10") (footprint "XCVR_MAX-8C-0-10")
     )
     (path "/4fe127d3-8d94-46ea-90c9-64f19144e6e4"
       (reference "Y1") (unit 1) (value "ECS-240-18-33-JGN-TR") (footprint "")
