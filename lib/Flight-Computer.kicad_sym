@@ -1341,11 +1341,11 @@
       )
     )
   )
-  (symbol "AI-1223-TWT-12V-3-R" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
+  (symbol "AT-1438-TWT-R" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
     (property "Reference" "BZ" (id 0) (at 3.81 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AI-1223-TWT-12V-3-R" (id 1) (at 3.81 -1.27 0)
+    (property "Value" "AT-1438-TWT-R" (id 1) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "" (id 2) (at -0.635 2.54 90)
@@ -1363,7 +1363,7 @@
     (property "ki_fp_filters" "*Buzzer*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "AI-1223-TWT-12V-3-R_0_1"
+    (symbol "AT-1438-TWT-R_0_1"
       (arc (start 0 -3.175) (mid 3.175 0) (end 0 3.175)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -1393,7 +1393,7 @@
         (fill (type none))
       )
     )
-    (symbol "AI-1223-TWT-12V-3-R_1_1"
+    (symbol "AT-1438-TWT-R_1_1"
       (pin passive line (at -2.54 2.54 0) (length 2.54)
         (name "-" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
