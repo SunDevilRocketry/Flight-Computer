@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "Engine Controller Microcontroller Board")
-    (date "2021-06-26")
+    (title "Flight Computer")
+    (date "2022-05-30")
     (rev "1.0")
     (company "Sun Devil Rocketry")
     (comment 1 "Author: Colton Acosta")
