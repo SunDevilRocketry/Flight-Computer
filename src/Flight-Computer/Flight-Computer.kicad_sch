@@ -5913,11 +5913,17 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/e647d2f0-1d47-4f44-b521-4f860179738d"
       (reference "#PWR041") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/054684c0-e4ce-408a-86b3-747e205f3b2f"
+      (reference "#PWR042") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/99dcc9bd-18e2-4fbd-a1fa-87d0150f0573"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR043") (unit 1) (value "Earth") (footprint "")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
       (reference "AE1") (unit 1) (value "0734120110") (footprint "")
+    )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/c82a199b-350b-4a11-b6fb-f82208ebf9d2"
+      (reference "AE2") (unit 1) (value "142-0701-851") (footprint "")
     )
     (path "/cea4c973-2fb2-41e2-9d5a-5ad0a7921ca6"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
@@ -6175,7 +6181,7 @@
       (reference "U9") (unit 1) (value "MAX-8C-0-10") (footprint "XCVR_MAX-8C-0-10")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/07a25237-9eb4-4989-8c2d-b144c13902bd"
-      (reference "U?") (unit 1) (value "RFM95W-868S2") (footprint "XCVR_RFM95W-868S2")
+      (reference "U10") (unit 1) (value "RFM95W-868S2") (footprint "XCVR_RFM95W-868S2")
     )
     (path "/4fe127d3-8d94-46ea-90c9-64f19144e6e4"
       (reference "Y1") (unit 1) (value "ECS-240-18-33-JGN-TR") (footprint "")
