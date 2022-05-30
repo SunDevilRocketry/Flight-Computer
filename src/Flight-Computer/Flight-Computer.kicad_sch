@@ -5919,6 +5919,9 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/99dcc9bd-18e2-4fbd-a1fa-87d0150f0573"
       (reference "#PWR043") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/02e18a53-ffbc-41c5-98fe-553532fc838c"
+      (reference "#PWR044") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
       (reference "AE1") (unit 1) (value "0734120110") (footprint "")
     )
@@ -5999,6 +6002,9 @@
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/470f33c1-72f7-44ac-be71-ff8826d723f3"
       (reference "C22") (unit 1) (value "0.01uF") (footprint "")
+    )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/65bfe693-7bf2-488c-8fcf-7c324032ed64"
+      (reference "C23") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/625a26ae-4315-4158-9fbe-9e106487c8d3"
       (reference "D1") (unit 1) (value "CLMVC-FKA-CL1D1L71BB7C3C3") (footprint "LED_CLMVC-FKA-CL1D1L71BB7C3C3")
