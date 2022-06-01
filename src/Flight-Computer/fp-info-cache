@@ -1,4 +1,4 @@
-138591342965796
+140245396205808
 Engine-Controller
 12V_power_jack
 
@@ -443,6 +443,13 @@ ECS-240-18-33-JGN-TR
 Flight-Computer
 Jumper-NO
 <b>CAPACITOR</b>
+
+0
+2
+2
+Flight-Computer
+L-07C27NJV6T
+
 
 0
 2
