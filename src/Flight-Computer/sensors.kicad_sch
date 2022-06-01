@@ -1059,7 +1059,6 @@
     (uuid f731394f-f2ca-4deb-aed9-9de0838aacfc)
   )
 
-  (no_connect (at 100.965 106.045) (uuid 2012ae5f-f130-4af8-99a3-fa0fdb64560a))
   (no_connect (at 100.965 127.635) (uuid 7006b291-6377-46d9-816f-45e8583872d5))
   (no_connect (at 100.965 111.125) (uuid 72aa4f91-f895-4eee-959b-76ab22d5bd3d))
   (no_connect (at 96.52 55.88) (uuid c2d00279-3992-4692-95db-6e66e8056518))
@@ -1697,10 +1696,6 @@
     (uuid ffac91f0-c0eb-4a7f-a123-77f233c5f037)
   )
 
-  (text "TODO: Add antenna\npower connections" (at 103.505 109.855 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 484d4126-ae8a-4f9c-b4d8-791fba986912)
-  )
   (text "Servo Motor PWM Interface" (at 187.325 86.995 0)
     (effects (font (size 2.032 2.032) bold) (justify left bottom))
     (uuid 51823349-610d-4b97-b634-194454d80aa2)
