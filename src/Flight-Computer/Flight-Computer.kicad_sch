@@ -1538,9 +1538,17 @@
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect line (at -3.175 5.08 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
         (pin passive line (at 3.81 0 180) (length 1.27)
           (name "3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at -6.35 5.08 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -5385,7 +5393,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf7ef682-4b9b-496c-a9fd-0980953721c8))
+    (pin "2" (uuid 0fde482e-94ae-46ed-95f1-8d5805a5d43d))
     (pin "3" (uuid 7b963b3e-8c08-4388-83af-8d35525d158c))
+    (pin "4" (uuid 7fc674b5-86ce-418e-832d-2dcfaa055d82))
   )
 
   (symbol (lib_id "Flight-Computer:CAP_0603") (at 146.558 49.784 90) (unit 1)
@@ -6053,7 +6063,7 @@
     (property "Value" "647676-2" (id 1) (at 189.23 78.105 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Flight-Computer:282837-6" (id 2) (at 189.23 80.645 0)
+    (property "Footprint" "Flight-Computer:647676-2" (id 2) (at 189.23 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 198.12 66.675 0)
@@ -6518,7 +6528,7 @@
       (reference "P1") (unit 1) (value "282837-2") (footprint "Flight-Computer:282837-2")
     )
     (path "/e6b0a6aa-1b72-4f34-b466-8560e486da99"
-      (reference "P2") (unit 1) (value "647676-2") (footprint "Flight-Computer:282837-6")
+      (reference "P2") (unit 1) (value "647676-2") (footprint "Flight-Computer:647676-2")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/cba84471-3533-47a7-8ab9-8b3ef15eb4c6"
       (reference "P3") (unit 1) (value "USB") (footprint "Flight-Computer:10118194-0001LF")
@@ -6548,22 +6558,22 @@
       (reference "P9") (unit 1) (value "440054-3") (footprint "Flight-Computer:440054-3")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/0ad4323c-4eaa-404c-9547-e0e8fb3a71f4"
-      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/fe1a29a9-92fa-44e3-a65d-df1bddd585be"
-      (reference "Q2") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q2") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/20a8364e-675c-422e-8961-8b47c055f930"
-      (reference "Q3") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q3") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/31a741d5-d576-475a-a567-e94d06aa5a7d"
-      (reference "Q4") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q4") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/4aecd815-6d57-4a6c-aa4a-51b0fe69fc8a"
-      (reference "Q5") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q5") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/dfe561ab-157f-4431-9d79-37d61e74ce29"
-      (reference "Q6") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q6") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
     )
     (path "/c5bc671e-4f2a-47b5-9c00-3f0bc44ffb57"
       (reference "R1") (unit 1) (value "68") (footprint "Flight-Computer:RES_0603")

@@ -1,4 +1,4 @@
-140245396357002
+141905899346093
 Engine-Controller
 12V_power_jack
 
@@ -397,7 +397,7 @@ Flight-Computer
 
 0
 11
-11
+7
 Flight-Computer
 AT-1438-TWT-R
 
@@ -454,6 +454,13 @@ L-07C27NJV6T
 0
 2
 2
+Flight-Computer
+LMS8117AMP-3.3NOPB
+
+
+0
+4
+3
 Flight-Computer
 Logo
 

@@ -19,8 +19,8 @@
   (fp_line (start 3.1242 -1.8542) (end 4.3942 -1.8542) (layer "F.Fab") (width 0.127) (tstamp 16fc208e-1b8d-46a9-be4c-21765b7909de))
   (fp_line (start -4.5466 -1.9812) (end -3.2766 -1.9812) (layer "F.Fab") (width 0.127) (tstamp b4ccfe22-be8f-493d-ae60-0ffdbbef9ff1))
   (fp_circle (center 0 0) (end 6.9 0) (layer "F.Fab") (width 0.127) (fill none) (tstamp 61de9369-7dcd-44fd-862a-60007674c8a8))
-  (pad "N" thru_hole circle (at 3.8 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp 63391327-b453-4a7d-9ab1-93ac69726679))
-  (pad "P" thru_hole circle (at -3.8 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp cde7ca11-af2a-4f45-99ab-f28f27577736))
+  (pad "1" thru_hole circle (at -3.8 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp cde7ca11-af2a-4f45-99ab-f28f27577736))
+  (pad "2" thru_hole circle (at 3.8 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp 63391327-b453-4a7d-9ab1-93ac69726679))
   (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/AT-1438-TWT-R.step"
     (offset (xyz 0 0 7))
     (scale (xyz 1 1 1))
