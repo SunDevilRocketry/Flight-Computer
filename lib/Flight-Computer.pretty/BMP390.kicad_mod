@@ -38,4 +38,9 @@
   (pad "8" smd rect (at 0.7122 0.4746 270) (size 0.25 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de23beea-2af8-4d3c-b761-eea8103ef28f))
   (pad "9" smd rect (at 0.7122 -0.0254 270) (size 0.25 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8c5fb13d-46dd-4303-90c4-1a78822d2fe6))
   (pad "10" smd rect (at 0.7122 -0.5254 270) (size 0.25 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a78f9985-24ae-4aa6-a9e8-c53886cb33ad))
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/BMP390.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
