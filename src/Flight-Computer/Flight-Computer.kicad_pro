@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.127,
+          "via_gap": 0.0,
+          "width": 0.2667
         }
       ],
       "drc_exclusions": [],
@@ -122,9 +127,13 @@
       "track_widths": [
         0.0,
         0.1778,
+        0.254,
+        0.313738,
         0.381,
         0.508,
-        0.762
+        0.635,
+        0.762,
+        1.778
       ],
       "via_dimensions": [
         {
@@ -137,7 +146,15 @@
         },
         {
           "diameter": 1.016,
-          "drill": 0.508
+          "drill": 0.381
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.762
+        },
+        {
+          "diameter": 1.778,
+          "drill": 1.016
         }
       ],
       "zones_allow_external_fillets": false,
