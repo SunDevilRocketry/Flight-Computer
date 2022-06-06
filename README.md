@@ -1,7 +1,7 @@
 <h1>Flight Computer</h1>
 
-<p>Current PCB Revision: 1.0</p>
-<p>PCB Part Number: A0002</p>
+<p><b>Current PCB Revision:</b> 1.0</p>
+<p><b>PCB Part Number:</b> A0002</p>
 
 <p>The Avionics team aims to produce a general purpose flight computer 
  for use in high powered rocketry projects that require an embedded processor
