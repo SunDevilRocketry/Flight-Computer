@@ -31,6 +31,6 @@ production: files needed for pcb fabrication, e.g. gerbers, profile, drill fi   
 
 <h2>3D Model: </h2>
 
-<img src="img/Flight-Computer-TOP.jpg">
-<img src="img/Flight-Computer-BOTTOM.jpg">
+<img src="img/Flight-Computer-TOP.png">
+<img src="img/Flight-Computer-BOTTOM.png">
 
