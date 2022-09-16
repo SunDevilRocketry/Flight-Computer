@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
-  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
-  (lib (name "Device")(type "Legacy")(uri "/home/olsport/Software/kicad/kicad-symbols-master/Device.lib")(options "")(descr ""))
+  (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB2/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
 )
