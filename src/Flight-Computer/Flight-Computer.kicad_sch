@@ -5382,7 +5382,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Mounting-Hole" (id 1) (at 133.35 176.53 0))
-    (property "Footprint" "Flight-Computer:MountingHole_4.3mm_M4_DIN965" (id 2) (at 133.35 182.88 0)
+    (property "Footprint" "Flight-Computer:MountingHole_3mm" (id 2) (at 133.35 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 133.35 182.88 0)
@@ -5527,7 +5527,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Mounting-Hole" (id 1) (at 157.48 176.53 0))
-    (property "Footprint" "Flight-Computer:MountingHole_4.3mm_M4_DIN965" (id 2) (at 157.48 182.88 0)
+    (property "Footprint" "Flight-Computer:MountingHole_3mm" (id 2) (at 157.48 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 182.88 0)
@@ -5930,7 +5930,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Mounting-Hole" (id 1) (at 157.48 162.56 0))
-    (property "Footprint" "Flight-Computer:MountingHole_4.3mm_M4_DIN965" (id 2) (at 157.48 168.91 0)
+    (property "Footprint" "Flight-Computer:MountingHole_3mm" (id 2) (at 157.48 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 168.91 0)
@@ -6462,12 +6462,6 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/e957763c-f564-4ea0-87b2-a02df3923fac"
       (reference "#PWR060") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a119b31b-a187-497b-96f3-aa79f0d1e927"
-      (reference "#PWR061") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/d0ea09de-337e-493a-bf5e-23a046f2e976"
-      (reference "#PWR062") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
       (reference "AE1") (unit 1) (value "0734120110") (footprint "Flight-Computer:73412-0110")
     )
@@ -6537,9 +6531,6 @@
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/6bf77307-b356-426a-b57a-ed29e912f1ea"
       (reference "C18") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
-    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/402e3b45-316c-4666-be79-d6216fffc079"
-      (reference "C19") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
-    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/2bcd4158-516a-4eb6-9314-527fe16f509c"
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
@@ -6560,9 +6551,6 @@
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/c57896b4-f30a-4dc3-b312-fc989e808900"
       (reference "C26") (unit 1) (value "1uF") (footprint "Flight-Computer:CAP_0603")
-    )
-    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/86adcb41-82d2-4425-bcd1-454a465affde"
-      (reference "C27") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
     (path "/625a26ae-4315-4158-9fbe-9e106487c8d3"
       (reference "D1") (unit 1) (value "CLMVC-FKA-CL1D1L71BB7C3C3") (footprint "Flight-Computer:CLMVC-FKA-CL1D1L71BB7C3C3")
@@ -6595,13 +6583,13 @@
       (reference "D10") (unit 1) (value "SP0504BAHTG") (footprint "Flight-Computer:SP0504BAHTG")
     )
     (path "/1e520e31-7764-4bc1-9ee3-232828e917a4"
-      (reference "H1") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_4.3mm_M4_DIN965")
+      (reference "H1") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_3mm")
     )
     (path "/b4d39a21-7c02-4cb7-9374-fdfaaba092a9"
-      (reference "H2") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_4.3mm_M4_DIN965")
+      (reference "H2") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_3mm")
     )
     (path "/5c97c4bf-c343-4ea1-9d91-deda5bf47189"
-      (reference "H3") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_4.3mm_M4_DIN965")
+      (reference "H3") (unit 1) (value "Mounting-Hole") (footprint "Flight-Computer:MountingHole_3mm")
     )
     (path "/bafa81bc-9c13-4533-81f7-048cec1d702b"
       (reference "J1") (unit 1) (value "Jumper_NO") (footprint "Flight-Computer:Jumper-NO")
@@ -6685,13 +6673,13 @@
       (reference "R6") (unit 1) (value "240") (footprint "Flight-Computer:RES_0603")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a00a994e-144e-4867-8953-26047cca14b2"
-      (reference "R7") (unit 1) (value "10k") (footprint "")
+      (reference "R7") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/330c7051-badb-4c54-bd62-47706a91a7b3"
       (reference "R8") (unit 1) (value "10") (footprint "Flight-Computer:RES_0603")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/0f10209d-e80d-4264-9d1d-ea4f9620c93f"
-      (reference "R9") (unit 1) (value "10k") (footprint "")
+      (reference "R9") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/f6d57afb-9c72-4073-9e94-a358e99f15dc"
       (reference "R10") (unit 1) (value "33") (footprint "Flight-Computer:RES_0603")

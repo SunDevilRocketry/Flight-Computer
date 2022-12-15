@@ -39,8 +39,8 @@
   (pad "18" thru_hole circle (at 4.445 0) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 9c47c972-bf4c-469f-9943-1310ab7b1641))
   (pad "19" thru_hole circle (at 5.715 1.27) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 9cab9706-7505-4908-9c2c-bcf939504758))
   (pad "20" thru_hole circle (at 5.715 0) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 2c1b22e6-07d6-40b5-ba5a-538b240bceca))
-  (model "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/CAD/3Dfiles/3220-20-0200-00.stp"
-    (offset (xyz 0 1.27 3.048))
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/3220-20-0200-00.stp"
+    (offset (xyz 0 1.25 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

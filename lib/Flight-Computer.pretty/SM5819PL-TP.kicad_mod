@@ -50,7 +50,7 @@
   (fp_line (start 1.5494 0.9525) (end 1.5494 -0.9525) (layer "F.Fab") (width 0.1) (tstamp e288ed45-005b-4fa2-bb3f-d3b43785955b))
   (pad "1" smd rect (at -1.8415 0) (size 0.5842 1.0414) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 95615c87-b70d-4f8a-a0b2-62fb5a51ba8c))
   (pad "2" smd rect (at 1.8415 0) (size 0.5842 1.0414) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b53f78e8-e675-4e2b-9e70-b9ea056184fb))
-  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/SM5819PL-TP.step"
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/SM5819PL-TP.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
