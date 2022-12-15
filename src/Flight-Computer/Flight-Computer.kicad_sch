@@ -6649,22 +6649,22 @@
       (reference "P10") (unit 1) (value "Micro_SD_Card") (footprint "Flight-Computer:MEM2075-00-140-01-A")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/20a8364e-675c-422e-8961-8b47c055f930"
-      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/31a741d5-d576-475a-a567-e94d06aa5a7d"
-      (reference "Q2") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q2") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/4aecd815-6d57-4a6c-aa4a-51b0fe69fc8a"
-      (reference "Q3") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q3") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/dfe561ab-157f-4431-9d79-37d61e74ce29"
-      (reference "Q4") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q4") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/0ad4323c-4eaa-404c-9547-e0e8fb3a71f4"
-      (reference "Q5") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q5") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/fe1a29a9-92fa-44e3-a65d-df1bddd585be"
-      (reference "Q6") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q6") (unit 1) (value "QS5U17TR") (footprint "Flight-Computer:QS5U17TR")
     )
     (path "/c5bc671e-4f2a-47b5-9c00-3f0bc44ffb57"
       (reference "R1") (unit 1) (value "68") (footprint "Flight-Computer:RES_0603")
