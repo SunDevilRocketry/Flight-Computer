@@ -3311,7 +3311,6 @@
   (no_connect (at 36.195 158.115) (uuid 1662bc98-77a0-49a1-9ace-df0992b8a87c))
   (no_connect (at 93.345 114.935) (uuid 1c651769-49d4-4d29-b930-aa0feed021df))
   (no_connect (at 36.195 147.955) (uuid 2529459e-79ab-4423-83a2-2308b2e259e7))
-  (no_connect (at 36.195 140.335) (uuid 3d03759f-3ddc-4e60-8323-498c60f74cba))
   (no_connect (at 36.195 150.495) (uuid 413d0811-b60f-4837-863e-980d93878d55))
   (no_connect (at 93.345 99.695) (uuid 45dcff0a-f571-42d1-b1ce-29e793e53e1c))
   (no_connect (at 93.345 104.775) (uuid 4b24268a-783d-4488-b622-fbb55a4445fd))
@@ -3322,7 +3321,6 @@
   (no_connect (at 36.195 160.655) (uuid a56666b9-6726-4a1a-81b3-6e9b0f23ddea))
   (no_connect (at 93.345 79.375) (uuid b2e928bb-982c-40d1-8fcc-037ea11165e3))
   (no_connect (at 93.345 41.275) (uuid c137dfec-d341-4077-bea1-66cf96747f9e))
-  (no_connect (at 36.195 137.795) (uuid c4b08bc5-6e53-4018-8aee-ad79665dcade))
   (no_connect (at 93.345 107.315) (uuid c851dde7-cd01-4e46-bd2b-dc12db297b8a))
   (no_connect (at 36.195 145.415) (uuid cdd1dec8-104e-4cbe-b2a8-2eb22181bfe2))
   (no_connect (at 208.28 152.4) (uuid e86f0a70-758e-46e5-9259-166ccb92af39))
@@ -3375,6 +3373,10 @@
   (wire (pts (xy 33.655 100.965) (xy 36.195 100.965))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0984cabc-cd2e-4f29-be79-eb4575e03ae0)
+  )
+  (wire (pts (xy 33.655 137.795) (xy 36.195 137.795))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 099cc77e-0c1e-4738-ab80-98c5e0b58c6c)
   )
   (wire (pts (xy 146.05 99.314) (xy 146.05 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3665,6 +3667,10 @@
   (wire (pts (xy 93.345 64.135) (xy 97.79 64.135))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6615b7d7-5e4f-4f64-87f3-9bc2f404ce32)
+  )
+  (wire (pts (xy 33.655 140.335) (xy 36.195 140.335))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 66b62386-aa71-4b9a-b96e-e50f06c7f993)
   )
   (wire (pts (xy 93.345 74.295) (xy 97.79 74.295))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4879,6 +4885,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "MAG_INT" (shape input) (at 33.655 137.795 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9054c9b8-840a-4b9e-9118-0daf909d7172)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 23.6503 137.7156 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "GPS_RX" (shape input) (at 33.655 93.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9343ea74-0100-419d-aa24-c2e9b002e4b9)
@@ -5023,6 +5036,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d9b06374-ebe3-49f5-a6d8-a6f7bdff1381)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 237.1857 105.8386 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "MAG_DRDY" (shape input) (at 33.655 140.335 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid da661793-e490-4a3d-9277-9b2b26a51147)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 21.6546 140.2556 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -6223,6 +6243,9 @@
     (property "Field6" "Motor Driver" (id 6) (at 244.475 41.275 0)
       (effects (font (size 1.27 1.27) bold))
     )
+    (property "Field7" "Magnetometer" (id 7) (at 267.335 41.275 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
   )
 
   (sheet (at 177.292 19.05) (size 52.578 31.115)
@@ -6315,6 +6338,12 @@
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/f760f8a2-7880-4d6d-8600-54bf46874688"
       (reference "#PWR019") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/0a099f11-dfb5-4554-82f4-5ec16a816f5e"
+      (reference "#PWR020") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/7b35c39c-8a9a-430a-b02f-1dcbc83d4cdf"
+      (reference "#PWR021") (unit 1) (value "Earth") (footprint "")
     )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/4b71cbdc-b374-4c43-a5ca-debee457df14"
       (reference "#PWR022") (unit 1) (value "Earth") (footprint "")
@@ -6433,6 +6462,12 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/e957763c-f564-4ea0-87b2-a02df3923fac"
       (reference "#PWR060") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a119b31b-a187-497b-96f3-aa79f0d1e927"
+      (reference "#PWR061") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/d0ea09de-337e-493a-bf5e-23a046f2e976"
+      (reference "#PWR062") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
       (reference "AE1") (unit 1) (value "0734120110") (footprint "Flight-Computer:73412-0110")
     )
@@ -6502,6 +6537,9 @@
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/6bf77307-b356-426a-b57a-ed29e912f1ea"
       (reference "C18") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/402e3b45-316c-4666-be79-d6216fffc079"
+      (reference "C19") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
+    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/2bcd4158-516a-4eb6-9314-527fe16f509c"
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
@@ -6522,6 +6560,9 @@
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/c57896b4-f30a-4dc3-b312-fc989e808900"
       (reference "C26") (unit 1) (value "1uF") (footprint "Flight-Computer:CAP_0603")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/86adcb41-82d2-4425-bcd1-454a465affde"
+      (reference "C27") (unit 1) (value "0.1uF") (footprint "Flight-Computer:CAP_0603")
     )
     (path "/625a26ae-4315-4158-9fbe-9e106487c8d3"
       (reference "D1") (unit 1) (value "CLMVC-FKA-CL1D1L71BB7C3C3") (footprint "Flight-Computer:CLMVC-FKA-CL1D1L71BB7C3C3")
@@ -6762,6 +6803,9 @@
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/ddb31ac7-9203-4775-84a5-80999995fd7b"
       (reference "U11") (unit 1) (value "TS391IYLT") (footprint "Flight-Computer:TS391IYLT")
+    )
+    (path "/a7215684-cee9-4aba-87f1-e5962f77da19/fd13d82b-457f-4f39-a9ca-5fe07235f540"
+      (reference "U12") (unit 1) (value "BMM150") (footprint "Flight-Computer:BMM150")
     )
     (path "/4fe127d3-8d94-46ea-90c9-64f19144e6e4"
       (reference "Y1") (unit 1) (value "ECS-240-18-33-JGN-TR") (footprint "Flight-Computer:ECS-240-18-33-JGN-TR")
