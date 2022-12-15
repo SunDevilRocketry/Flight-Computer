@@ -13,14 +13,14 @@
   )
 
   (lib_symbols
-    (symbol "Flight-Computer:282837-2" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Flight-Computer:1546551-2" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "P" (id 0) (at 8.89 6.35 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "282837-2" (id 1) (at 5.08 -27.94 0)
+      (property "Value" "1546551-2" (id 1) (at 5.08 -27.94 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Footprint" "66953-005LF_AMP" (id 2) (at 3.81 -30.48 0)
+      (property "Footprint" "Flight-Computer:1546551-2" (id 2) (at 3.81 -30.48 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
@@ -29,13 +29,13 @@
       (property "ki_fp_filters" "66953-005LF_AMP" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "282837-2_0_1"
+      (symbol "1546551-2_0_1"
         (rectangle (start 5.08 2.54) (end 12.7 -4.826)
           (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type background))
         )
       )
-      (symbol "282837-2_1_1"
+      (symbol "1546551-2_1_1"
         (polyline
           (pts
             (xy 10.16 -2.54)
@@ -5662,6 +5662,25 @@
     (pin "2" (uuid cd3a702a-9b31-42e2-833c-89f6c76d59ec))
   )
 
+  (symbol (lib_id "Flight-Computer:1546551-2") (at 198.12 81.28 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7069cbe8-cd18-407c-aad0-3f663eef6fe7)
+    (property "Reference" "P2" (id 0) (at 189.23 77.5731 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "1546551-2" (id 1) (at 193.04 109.22 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "Flight-Computer:1546551-2" (id 2) (at 194.31 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 198.12 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid b5c1f27b-ee65-43a7-8520-9889a8cbeba6))
+    (pin "2" (uuid b7928a8c-cce8-49e7-8e49-7b331137a3cd))
+  )
+
   (symbol (lib_id "Flight-Computer:Logo") (at 133.35 168.275 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 734779d6-abcf-4038-aed0-dd44273b3737)
@@ -5752,25 +5771,6 @@
     )
     (pin "1" (uuid 4d0e2239-1bbe-4ee3-9098-8544524c2989))
     (pin "2" (uuid f9f600ff-774e-4f9e-a18d-16fd5cd23a62))
-  )
-
-  (symbol (lib_id "Flight-Computer:282837-2") (at 198.12 83.82 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8fa346f3-2124-4d55-8ce5-dad7365c6a84)
-    (property "Reference" "P2" (id 0) (at 189.23 77.8271 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "282837-2" (id 1) (at 193.04 55.88 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Flight-Computer:282837-2" (id 2) (at 194.31 53.34 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 198.12 83.82 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 8d4f5558-7074-4e7a-84af-758399711479))
-    (pin "2" (uuid 449071c3-8433-477b-9868-c8793646fa26))
   )
 
   (symbol (lib_id "Flight-Computer:CAP_0603") (at 132.588 76.835 90) (unit 1)
@@ -6615,8 +6615,8 @@
     (path "/e6b0a6aa-1b72-4f34-b466-8560e486da99"
       (reference "P1") (unit 1) (value "647676-2") (footprint "Flight-Computer:647676-2")
     )
-    (path "/8fa346f3-2124-4d55-8ce5-dad7365c6a84"
-      (reference "P2") (unit 1) (value "282837-2") (footprint "Flight-Computer:282837-2")
+    (path "/7069cbe8-cd18-407c-aad0-3f663eef6fe7"
+      (reference "P2") (unit 1) (value "1546551-2") (footprint "Flight-Computer:1546551-2")
     )
     (path "/b101f496-de41-4d70-bd94-f188bbb0c195"
       (reference "P3") (unit 1) (value "3220-20-0200-00") (footprint "Flight-Computer:3220-20-0200-00")
@@ -6636,14 +6636,14 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/cba84471-3533-47a7-8ab9-8b3ef15eb4c6"
       (reference "P8") (unit 1) (value "USB") (footprint "Flight-Computer:10118194-0001LF")
     )
-    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/08b5a367-cad3-4176-9e3c-72bdcadfa0b3"
-      (reference "P9") (unit 1) (value "282837-6") (footprint "Flight-Computer:282837-6")
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/7647c47f-c2cb-4923-ba5b-3c428f701323"
+      (reference "P9") (unit 1) (value "1984659") (footprint "Flight-Computer:1984659")
     )
-    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/43748da7-f219-4f16-bf51-0c938c0af2fb"
-      (reference "P9") (unit 2) (value "282837-6") (footprint "Flight-Computer:282837-6")
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/0cc0f309-354f-4a94-9fcd-19cbe68055bf"
+      (reference "P9") (unit 2) (value "1984659") (footprint "Flight-Computer:1984659")
     )
-    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/b7e1ac3b-4d6b-4c8f-87ee-6a99cd0f07a8"
-      (reference "P9") (unit 3) (value "282837-6") (footprint "Flight-Computer:282837-6")
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/3c7f2a81-7124-4866-b422-f940f0956860"
+      (reference "P9") (unit 3) (value "1984659") (footprint "Flight-Computer:1984659")
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/555fdff7-9bd3-4ee3-8c84-a02b4e5418bb"
       (reference "P10") (unit 1) (value "Micro_SD_Card") (footprint "Flight-Computer:MEM2075-00-140-01-A")
