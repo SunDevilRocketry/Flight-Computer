@@ -10483,7 +10483,7 @@
   (gr_text "A0002 Flight Computer Rev 2.0\n " (at 118.872 100.838) (layer "B.SilkS") (tstamp 7c1a59ab-ca6b-4235-abf6-e3da410b442b)
     (effects (font (size 1.016 1.016) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER" (at 93.853 69.85 270) (layer "B.SilkS") (tstamp 9b9b311b-5922-45d2-b255-0b116817461c)
+  (gr_text "POWER" (at 95.377 69.215 270) (layer "B.SilkS") (tstamp 9b9b311b-5922-45d2-b255-0b116817461c)
     (effects (font (size 1.016 1.016) (thickness 0.15)) (justify mirror))
   )
   (gr_text "POWER" (at 154.94 68.961) (layer "F.SilkS") (tstamp 0576d7ca-9b0d-440b-b1d1-7ff10de12c9d)
