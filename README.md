@@ -1,6 +1,6 @@
 <h1>Flight Computer</h1>
 
-<p><b>Current PCB Revision:</b> 1.0</p>
+<p><b>Current PCB Revision:</b> 2.0</p>
 <p><b>PCB Part Number:</b> A0002</p>
 
 <p>The Avionics team aims to produce a general purpose flight computer 

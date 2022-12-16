@@ -34,8 +34,8 @@
   (pad "4" thru_hole circle (at 10.500005 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask) (tstamp c510e4ca-2fbc-4e45-9bc9-2d00ace407f7))
   (pad "5" thru_hole circle (at 14.000005 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask) (tstamp 1d9f2fbe-c621-4928-a1b2-71ef3a287a80))
   (pad "6" thru_hole circle (at 17.500006 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask) (tstamp 8699fb0b-5376-4ca2-ba0f-f22d5e96fd38))
-  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/1984659.stp"
-    (offset (xyz -1.75 -4 0))
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/1984659.step"
+    (offset (xyz -2 -4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
