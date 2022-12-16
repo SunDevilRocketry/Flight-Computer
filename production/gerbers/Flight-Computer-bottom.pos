@@ -1,0 +1,7 @@
+### Module positions - created on Fri Dec 16 16:09:41 2022 ###
+### Printed by Pcbnew version (6.0.9)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+TP1       TP        TP                -156.2100   -69.0880  180.0000  bottom
+## End
