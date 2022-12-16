@@ -448,7 +448,7 @@
       "idf": "",
       "netlist": "Engine-Controller.net",
       "specctra_dsn": "",
-      "step": "../../CAD/Flight-Computer.step",
+      "step": "../../CAD/Flight-Computer-Rev2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
