@@ -3365,9 +3365,11 @@
   (no_connect (at 36.195 131.445) (uuid 76980eaf-0060-4834-91b3-338a6003fdb4))
   (no_connect (at 93.345 145.415) (uuid 87ad60f2-6e41-4e62-9055-8d12ac27ef6e))
   (no_connect (at 36.195 41.275) (uuid 8e8e5fdf-8f25-4f56-8658-951c11f2467c))
+  (no_connect (at 24.765 151.13) (uuid 916ccd54-6181-4a1e-866c-eb0414e3ea59))
   (no_connect (at 93.345 43.815) (uuid 953050e9-3fda-42da-9dd9-ca23b430efff))
   (no_connect (at 93.345 117.475) (uuid a4cdfc8d-ade8-431d-b43c-f8b2c3888d63))
   (no_connect (at 93.345 79.375) (uuid b2e928bb-982c-40d1-8fcc-037ea11165e3))
+  (no_connect (at -14.605 113.03) (uuid bc9493f8-4236-4e58-aaa2-761b67670537))
   (no_connect (at 93.345 41.275) (uuid c137dfec-d341-4077-bea1-66cf96747f9e))
   (no_connect (at 93.345 107.315) (uuid c851dde7-cd01-4e46-bd2b-dc12db297b8a))
   (no_connect (at 36.195 145.415) (uuid cdd1dec8-104e-4cbe-b2a8-2eb22181bfe2))
@@ -6532,6 +6534,12 @@
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/e957763c-f564-4ea0-87b2-a02df3923fac"
       (reference "#PWR060") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/2ed90b06-fb3b-45b8-88dd-19466ece902a"
+      (reference "#PWR061") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/efc5494b-626f-4b82-8e6e-41709513284c"
+      (reference "#PWR062") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/a7215684-cee9-4aba-87f1-e5962f77da19/a3048e19-c13f-4b6c-a828-4d90b1592f85"
       (reference "AE1") (unit 1) (value "0734120110") (footprint "Flight-Computer:73412-0110")
     )
@@ -6828,6 +6836,12 @@
     )
     (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/843ca7a3-e5e2-4d7b-919c-7e121b638bac"
       (reference "R34") (unit 1) (value "10k") (footprint "Flight-Computer:RES_0603")
+    )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/786e3ad0-aac3-4c03-91cd-019cac36e46c"
+      (reference "R35") (unit 1) (value "10k") (footprint "Flight-Computer:RES_0603")
+    )
+    (path "/b65729ce-aade-4707-9cc1-eb9bb9e47e4f/e2e56602-14ec-4568-b397-a32a437fa241"
+      (reference "R36") (unit 1) (value "10k") (footprint "Flight-Computer:RES_0603")
     )
     (path "/19abe294-64ab-4a0e-9a39-1f6fa5ac5e6f"
       (reference "TP1") (unit 1) (value "TP") (footprint "Flight-Computer:TP")
