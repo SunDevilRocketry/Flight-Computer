@@ -4624,7 +4624,7 @@
   (symbol (lib_name "RES_0603_8") (lib_id "Flight-Computer:RES_0603") (at 128.905 80.01 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 95c3c78b-ba03-49bb-a9ef-f43e3f47494f)
-    (property "Reference" "R25" (id 0) (at 124.46 79.375 90)
+    (property "Reference" "R25" (id 0) (at 123.825 79.375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (id 1) (at 123.19 81.915 90)
