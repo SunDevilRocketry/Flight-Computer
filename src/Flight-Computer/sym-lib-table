@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
+  (lib (name "Flight-Computer-rescue")(type "KiCad")(uri "${KIPRJMOD}/Flight-Computer-rescue.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMM350 Footprint")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2025-01-27_15-46-31.kicad_sym")(options "")(descr ""))
+)
