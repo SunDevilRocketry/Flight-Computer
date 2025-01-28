@@ -2563,25 +2563,27 @@
 		)
 	)
 	(gr_text "Hypothetical 1.8V\n"
-		(at 133 112.6 0)
+		(at 127.75 112.5 0)
 		(layer "F.SilkS")
 		(uuid "28eb46c0-4792-41fa-b90c-661772ee005b")
 		(effects
 			(font
-				(size 0.1 0.1)
-				(thickness 0.025)
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "Hypothetical 3.3V\n"
-		(at 140 111.8 0)
+		(at 140.75 112.25 0)
 		(layer "F.SilkS")
 		(uuid "ecc4cec8-f9ec-4961-81e2-51d1596835b4")
 		(effects
 			(font
-				(size 0.1 0.1)
-				(thickness 0.025)
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
