@@ -8596,6 +8596,7 @@
 	)
 	(label "D-"
 		(at 84.455 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8606,6 +8607,7 @@
 	)
 	(label "D+"
 		(at 84.455 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11911,7 +11913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Flight-Computer:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.435 167.005 0)
 			(effects
 				(font

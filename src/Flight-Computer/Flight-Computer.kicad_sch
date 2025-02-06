@@ -10909,6 +10909,7 @@
 	)
 	(label "PIN_HARN"
 		(at 200.66 66.675 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10919,6 +10920,7 @@
 	)
 	(label "PIN_SCREW"
 		(at 200.025 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14524,7 +14526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Flight-Computer:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 164.592 45.212 0)
 			(effects
 				(font
@@ -14853,7 +14855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Flight-Computer:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 175.006 45.212 0)
 			(effects
 				(font
