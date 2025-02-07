@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "BMM350 Footprint")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2025-01-27_15-46-31.kicad_sym")(options "")(descr ""))
   (lib (name "2025-01-27_15-46-31")(type "KiCad")(uri "${KIPRJMOD}/BMI350 files/2025-01-27_15-46-31.kicad_sym")(options "")(descr ""))
+  (lib (name "XC9265")(type "KiCad")(uri "${KIPRJMOD}/BMI350 files/KiCADv6 2/2025-02-07_20-41-33.kicad_sym")(options "")(descr ""))
 )
