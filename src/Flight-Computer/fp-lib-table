@@ -3,5 +3,6 @@
   (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.pretty")(options "")(descr ""))
   (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Liquid-Engine-Controller/lib/Engine-Controller.pretty")(options "")(descr ""))
   (lib (name "MountingHole")(type "KiCad")(uri "/home/olsport/Software/kicad/kicad-footprints-master/MountingHole.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/footprints.pretty")(options "")(descr ""))
+  (lib (name "BMM350")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/footprints.pretty")(options "")(descr ""))
+  (lib (name "S85S1A")(type "KiCad")(uri "C:/Users/David/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/cool converter/footprints.pretty")(options "")(descr ""))
 )

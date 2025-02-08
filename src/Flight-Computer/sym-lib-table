@@ -3,4 +3,5 @@
   (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
   (lib (name "Flight-Computer-rescue")(type "KiCad")(uri "${KIPRJMOD}/Flight-Computer-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "BMM350")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/2025-01-27_15-46-31.kicad_sym")(options "")(descr ""))
+  (lib (name "S85S1")(type "KiCad")(uri "C:/Users/David/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/cool converter/2025-02-08_09-10-34.kicad_sym")(options "")(descr ""))
 )
